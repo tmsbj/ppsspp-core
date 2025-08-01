@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+  <style name="ppsspp_style" parent="android:Theme.Material">
+    <item name="android:windowFullscreen">true</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:navigationBarColor">#FF0C2C3C</item>
+    <item name="android:windowTranslucentStatus">true</item>
+    <item name="android:windowLayoutInDisplayCutoutMode" tools:targetApi="27">shortEdges</item>
+  </style>
+
+</resources>

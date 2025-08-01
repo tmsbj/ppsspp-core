@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools">
+
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+  <application
+    android:appCategory="game"
+    android:hardwareAccelerated="true"
+    android:isGame="true"
+    android:requestLegacyExternalStorage="true"
+    tools:ignore="UnusedAttribute">
+    <activity
+      android:name=".PpssppActivity"
+      android:configChanges="locale|keyboard|keyboardHidden|navigation|uiMode|orientation|screenSize"
+      android:launchMode="singleTop"
+      android:theme="@style/ppsspp_style" />
+  </application>
+
+</manifest>
